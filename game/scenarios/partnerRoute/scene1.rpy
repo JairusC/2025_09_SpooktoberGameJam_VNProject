@@ -25,7 +25,7 @@ label parterRouteScene1:
 
     show lee normal at right, scale(1.2), Transform(ypos=400) with dissolve
 
-    l "(My hair was damp that day after the shower - I hated drying my hair if I didn’t have anything else happening that day. A weird hill to stand on, I admit, and I can sometimes see it in his eyes, thinking the same. He never says anything though. I don’t think he will get it, he has only ever had a short buzz since I have known him.)"
+    l "(My hair was still damp from the shower - I hated drying my hair if I didn’t have anything else happening that day. A weird hill to stand on, I admit, and I can sometimes see it in his eyes, thinking the same. He never says anything though. I don’t think he will get it, he has only ever had a short buzz since I have known him.)"
 
     l "Yeah?"
 
