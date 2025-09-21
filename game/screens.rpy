@@ -354,20 +354,16 @@ style navigation_button_text:
 
 style mm_textbutton:
     font "DejaVuSans.ttf"
-
     size 28
+    
+    xminimum 200
+    yminimum 40
 
-    foreground "#ffffff00"
-    hover_foreground "#FFD700"
-    background "#222222"
-    hover_background "#444444"
-
-    xalign 0.5  # center horizontally inside button
-    yalign 0.5  # center vertically inside button
+    background "#22222279"
+    hover_background "#4444447c"
 
     padding (10, 5)
-    xminimum 150
-    yminimum 40
+    text_align 0.5
 
 screen main_menu():
 
@@ -376,23 +372,19 @@ screen main_menu():
     # Play the menu music on loop
     on "show" action Play("music", menu_music, loop=True)
 
-    add "images/lee_normal.png" align (0.5, 0.5) zoom 1.5
-
+    add "images/main_menu.jpg" zoom 0.5
 
     frame:
-        style_group "mm"
+        style_group "mm"        
+        background Solid("#0000ff00")
 
         align (0.5, 1.0)
         xpadding 20
         ypadding 30
 
-
         hbox:
-
-            spacing 15
-            xalign 0.5
-
-
+            spacing 50
+            
             textbutton "Start" action Start() style "mm_textbutton"
             textbutton "Load" action ShowMenu("load") style "mm_textbutton"
             textbutton "Preferences" action ShowMenu("preferences") style "mm_textbutton"
@@ -421,7 +413,7 @@ screen quick_menu():
 
 style main_menu_frame is empty
 style main_menu_vbox is vbox
-style main_menu_text is gui_text
+# style main_menu_text is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
 
@@ -439,7 +431,7 @@ style main_menu_vbox:
     yoffset -20
 
 style main_menu_text:
-    properties gui.text_properties("main_menu", accent=True)
+    properties gui.text_properties("main_menu", accent=True) 
 
 style main_menu_title:
     properties gui.text_properties("title")
