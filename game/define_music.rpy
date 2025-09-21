@@ -1,0 +1,1 @@
+define menu_music = "audio/music/MenuLoop.mp3"

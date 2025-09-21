@@ -350,16 +350,58 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
+## Custom Frame.
+
+style mm_textbutton:
+    font "DejaVuSans.ttf"
+
+    size 28
+
+    foreground "#ffffff00"
+    hover_foreground "#FFD700"
+    background "#222222"
+    hover_background "#444444"
+
+    xalign 0.5  # center horizontally inside button
+    yalign 0.5  # center vertically inside button
+
+    padding (10, 5)
+    xminimum 150
+    yminimum 40
+
 screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
     tag menu
+    # Play the menu music on loop
+    on "show" action Play("music", menu_music, loop=True)
 
-    add gui.main_menu_background
+    add "images/lee_normal.png" align (0.5, 0.5) zoom 1.5
 
-    ## This empty frame darkens the main menu.
+
     frame:
-        style "main_menu_frame"
+        style_group "mm"
+
+        align (0.5, 1.0)
+        xpadding 20
+        ypadding 30
+
+
+        hbox:
+
+            spacing 15
+            xalign 0.5
+
+
+            textbutton "Start" action Start() style "mm_textbutton"
+            textbutton "Load" action ShowMenu("load") style "mm_textbutton"
+            textbutton "Preferences" action ShowMenu("preferences") style "mm_textbutton"
+            textbutton "Quit" action Quit() style "mm_textbutton"
+
+# Disabling quick menu just to mainly show the "custom" buttons.
+screen quick_menu():
+
+    pass
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
