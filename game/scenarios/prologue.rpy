@@ -9,9 +9,9 @@ label prologue:
     
     The very same living room that Tommy and I used to eat dinner in. 
     
-    The same room I'd make him sleep in after we fight.
+    The same room I'd make him sleep in after a fight.
     
-    Where one day, I slipped, and the problems began.
+    The same room where one day, I slipped, and the problems began.
     """
 
     show expression "#1a1a2e" as bg_overlay   
@@ -48,7 +48,8 @@ label prologue:
     "Instead, the man that stumbled in has a patchy beard, with hair growing beyond his brows. His eye bags are huge and pronounced."
     l "{i}How did I not notice this before, when he visited me at the hospital??{/i}"
     "I draw a blank trying to recall his face in the days leading up to my death."
-    "I reach out for his arm, but it passes right through him. Tommy marches clumsily towards the bedroom, out of sight."
+    "I reach out for his arm, but it passes right through him."
+    "Tommy marches clumsily towards the bedroom, out of sight."
     l "{i}I don't understand. How can I not touch him?{/i}"
     l "{i}Am I just going to be here for eternity, and he'll never know I'm here?{/i}"
 

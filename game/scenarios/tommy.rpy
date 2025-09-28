@@ -3,13 +3,23 @@ label tommy:
     show bg bedroom at center, scale(0.4) with fade
 
     """
-    Our bedroom is a mess, clothes all over the place. Tommy is lying on his side, turned away from me. I can see a glass of water and some scattered pills on the dresser by him.
+    Our bedroom is a mess, clothes all over the place.
+
+    Tommy is lying on his side, turned away from me.
+
+    I can see a glass of water and some scattered pills on the dresser by him.
 
     He is still wearing his day clothes. His favorite jacket that I got him years ago has been tossed to the floor.
 
-    I kept telling him to get it tailored. He'd always just laugh, saying that the bagginess suited him just fine. He wanted to keep it exactly the way I got it. I wish he'd liked that one scarf I knitted for him just as much as he did the jacket.
+    I kept telling him to get it tailored. He'd always just laugh, saying that the bagginess suited him just fine.
+    
+    He wanted to keep it exactly the way I got it.
+    
+    I wish he'd liked that one scarf I knitted for him just as much as he did the jacket.
 
-   	He didn't even bother to kick his shoes off before jumping onto the bed. The sheets barely cover him, a half-hearted attempt to tuck himself in. My heart aches at the sight.
+   	He didn't even bother to kick his shoes off before jumping onto the bed. The sheets barely cover him, a half-hearted attempt to tuck himself in.
+
+    My heart aches at the sight.
 
     I tug at the sheets and unexpectedly manage to pull them over him.
     """
@@ -77,7 +87,7 @@ label tommy:
     t "Mmm…"
 
     "I stay still and let the hug continue. I can feel the warmth radiating off him, and I can feel his breath on my skin."
-    l "{i}I've missed this, even if he's a slobbering mess.{/i}"
+    "I've missed this, even if he's a slobbering mess."
     "Now that I have my arms around him, he feels skinnier."
 
     l "Have you been eating...?"
@@ -146,7 +156,7 @@ label tommy:
 
     "He pauses for a moment, his eyes glued to mine and widened."
 
-    t "I'm… I think I'm missing a future we don't get to have."
+    t "I… I think I'm missing a future we don't get to have."
 
     "I put my arm around him and squeeze."
 
