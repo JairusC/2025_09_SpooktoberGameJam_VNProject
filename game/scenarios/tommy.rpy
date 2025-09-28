@@ -21,7 +21,7 @@ label tommy:
     
     I still can't touch him, but I meekly trace the side of his face with my hand. The bends and curves have seen better days.
 
-    I know exactly what caused it. The pronounced eyebags from too many days of too little sleep. 
+    I know exactly what caused those wrinkles. It's the same thing that caused those pronounced eyebags: too many days of too little sleep. 
     
     The sunken, pale cheeks from skipping meals.
     
@@ -59,16 +59,19 @@ label tommy:
     t "Argh come on, don't make that the first thing you say to me."
     l "You know we're an Asian household, right?"
     "He lets out a light chuckle."
-    t "Second generation removed (temporary)"
+    #suggest removing this line
+    #t "Second generation removed (temporary)"
     "We both laugh."
 
     # this might be too 'young' for the couple - we will need to review this
-    "Growing up, our families always had this playful banter going on. It was like a competition to see who could come up with the most ridiculous excuses for not doing chores."
+    t "Growing up, our families always had this playful banter going on. It was like a competition to see who could come up with the most ridiculous excuses for not doing chores."
     l "Right? Like when your mom would say she couldn't do the laundry because it was 'too heavy'?"
     t "Or when my dad claimed he was 'too busy' to help with dinner because he was 'working on his novel.'"
     l "Which was really just him playing video games."
     t "Exactly! And we thought we could outsmart them by using the same excuses."
     "Those were good times."
+    #adding a pause here for effect
+    "..."
     t "I've missed being silly like this."
     l "I guess it's been hard to be silly lately."
     t "Mmm…"
@@ -157,7 +160,8 @@ label tommy:
 
     l "You'll be doing it for me too."
 
-    "He scratches his chin and taps his foot."
+    #since it looks like the line about lee predicting tommy will tap his foot is removed, it feels awkward that he starts tapping his foot and scratching his chin -- it's kinda cartoonish i feel like??
+    "He scratches his chin."
 
     "He seems uncomfortable, but I can tell he's giving my words real consideration."
 

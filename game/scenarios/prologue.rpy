@@ -9,9 +9,9 @@ label prologue:
     
     The very same living room that Tommy and I used to eat dinner in. 
     
-    The same room where I would make him sleep in after we fight.
+    The same room I'd make him sleep in after we fight.
     
-    Where I slipped that one time and the problems began.
+    Where one day, I slipped, and the problems began.
     """
 
     show expression "#1a1a2e" as bg_overlay   
@@ -45,16 +45,17 @@ label prologue:
     l "{i}There he is.{/i}"
     "I'm more grateful than ever that he is here. Yet, I can't help but be taken back."
     "Tommy had always kept a simple look. He preferred a clean shave and he kept a close eye on his hair, making sure it never grew too long."
-    "Instead, the man that stumbled in has a patchy beard, with hair growing beyond his brows. The eye bags are threatening to burst."
-    l "{i}How did I not notice this before when he visited?{/i}"
-    "I draw blanks trying to remember."
-    "I reach out for his arm but it passes right through him. Tommy marches clumsily towards the bedroom, out of sight."
+    "Instead, the man that stumbled in has a patchy beard, with hair growing beyond his brows. His eye bags are huge and pronounced."
+    l "{i}How did I not notice this before, when he visited me at the hospital??{/i}"
+    "I draw a blank trying to recall his face in the days leading up to my death."
+    "I reach out for his arm, but it passes right through him. Tommy marches clumsily towards the bedroom, out of sight."
     l "{i}I don't understand. How can I not touch him?{/i}"
-    l "{i}Am I just going to be here for eternity, and he will never know?{/i}"
+    l "{i}Am I just going to be here for eternity, and he'll never know I'm here?{/i}"
 
     play sound thud volume 2
     pause 1.0
     "..."
-    l "{i}I'll worry about it later...{/i}"
+    #I think this is a weird thing to think but maybe it's in character actually lol??
+    #l "{i}I'll worry about it later...{/i}"
 
     jump tommy
