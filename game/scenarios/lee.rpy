@@ -39,6 +39,8 @@ label lee:
 
     l "I don't want to close my eyes, knowing that all I accomplished was putting some words on some pages in a book that never got a proper ending."
 
+    stop music fadeout 1.0
+
     "Shame curls in my gut, hot and heavy."
     
     "What kind of wife was I, leaving him behind after everything I'd put him through?"

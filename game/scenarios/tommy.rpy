@@ -47,6 +47,9 @@ label tommy:
     "..."
     "I don't know how, but when I open my eyes again, we're no longer in our bedroom."
     "Instead, he is fast asleep on my lap, like he'd been there all along."
+
+    play music menu_music volume 1.0 loop
+
     "I can't resist playing with his hair a little before taking in our surroundings."
     "We are sitting on the couch in our first apartment."
     "The place that we scouted out just weeks after we finished our final exams. By then, we had been together for three years."
