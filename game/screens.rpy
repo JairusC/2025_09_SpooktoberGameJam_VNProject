@@ -351,21 +351,6 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
-## Custom Frame.
-
-style mm_textbutton:
-    font "DejaVuSans.ttf"
-    size 28
-    
-    xminimum 200
-    yminimum 40
-
-    background "#22222279"
-    hover_background "#4444447c"
-
-    padding (10, 5)
-    text_align 0.5
-
 screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
@@ -385,11 +370,43 @@ screen main_menu():
 
         hbox:
             spacing 50
-            
-            textbutton "Start" action Start() style "mm_textbutton"
-            textbutton "Load" action ShowMenu("load") style "mm_textbutton"
-            textbutton "Preferences" action ShowMenu("preferences") style "mm_textbutton"
-            textbutton "Quit" action Quit() style "mm_textbutton"
+
+            textbutton "Start" action Start():
+                background "#22222279"
+                hover_background "#4444447c"
+                align (.5, .5)
+                xminimum 200
+                yminimum 40
+                text_color 'FFF'
+                text_size 28
+                text_align 0.5
+            textbutton "Load" action ShowMenu("load"):
+                background "#22222279"
+                hover_background "#4444447c"
+                align (.5, .5)
+                xminimum 200
+                yminimum 40
+                text_color 'FFF'
+                text_size 28
+                text_align 0.5
+            textbutton "Preferences" action ShowMenu("preferences"):
+                background "#22222279"
+                hover_background "#4444447c"
+                align (.5, .5)
+                xminimum 200
+                yminimum 40
+                text_color 'FFF'
+                text_size 28
+                text_align 0.5
+            textbutton "Quit" action Quit():
+                background "#22222279"
+                hover_background "#4444447c"
+                align (.5, .5)
+                xminimum 200
+                yminimum 40
+                text_color 'FFF'
+                text_size 28
+                text_align 0.5
 
 # # Disabling quick menu just to mainly show the "custom" buttons.
 # screen quick_menu():
