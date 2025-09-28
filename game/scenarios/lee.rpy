@@ -1,7 +1,7 @@
 label lee:
     pause 2.0
     "..."
-    l "{i}Where does this leave me…?{/i}"
+    "Where does this leave me…?"
     "..."
 
     l "Tommy, what was the point of... me?"
@@ -35,7 +35,7 @@ label lee:
 
     l "I can't help but think, maybe all I'm now is a mark in the sand."
 
-    "I leave my head buried. I don't want to know what he is thinking right now. I'm scared to find out."
+    "I leave my head buried. I don't want to know what he's thinking right now. I'm scared to find out."
 
     l "I don't want to close my eyes, knowing that all I accomplished was putting some words on some pages in a book that never got a proper ending."
 

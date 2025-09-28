@@ -9,7 +9,7 @@ label tommy:
 
     I can see a glass of water and some scattered pills on the dresser by him.
 
-    He is still wearing his day clothes. His favorite jacket that I got him years ago has been tossed to the floor.
+    He's still wearing his day clothes. His favorite jacket that I got him years ago has been tossed to the floor.
 
     I kept telling him to get it tailored. He'd always just laugh, saying that the bagginess suited him just fine.
     
@@ -22,11 +22,9 @@ label tommy:
     My heart aches at the sight.
 
     I tug at the sheets and unexpectedly manage to pull them over him.
-    """
 
-    l "Oh, so I can touch this? Then, maybe…"
+    Oh, so I can touch this? Then, maybe…
 
-    """
     I push at the mattress and, emboldened by its familiar bounce, lie down next to him. 
     
     I still can't touch him, but I meekly trace the side of his face with my hand. The bends and curves have seen better days.
@@ -38,10 +36,10 @@ label tommy:
     He mutters in his sleep, seemingly stuck in a dream.
     """
 
-    l "{i}I just want to talk to him again...{/i}"
+    "I just want to talk to him again..."
     "As if in an act of prayer, I close my eyes and fold my hands together."
-    l "{i}Tommy. My husband, and the one who shared with me ten years of highs, lows and the mundane valleys in between.{/i}"
-    l "{i}They were the best days of our lives.{/i}"
+    "Tommy. My husband, and the one who shared with me ten years of highs, lows and the mundane valleys in between."
+    "They were the best days of our lives."
     "I can feel a pull. The longer I spend thinking about him, the stronger it is. Not a single part of my being resists."
     "It is a familiar feeling. The same warmth I felt when he would hold my hand."
     "..."
@@ -147,15 +145,15 @@ label tommy:
 
     t "We had so many things we were going to do."
 
-    l "{i}I know.{/i}"
+    "I know."
 
     t "We were going to visit your friends that year."
 
-    l "{i}That would have been so fun.{/i}"
+    "That would have been so fun."
 
     t "I was so close to getting us a dog."
 
-    l "{i}We would have been the best dog parents.{/i}"
+    "We would have been the best dog parents."
 
     "He pauses for a moment, his eyes glued to mine and widened."
 
@@ -180,8 +178,8 @@ label tommy:
 
     t "Okay."
 
-    l "{i}Knowing him, whatever he decides to do, he will put his full being into it.{/i}"
+    "Knowing him, whatever he decides to do, he will put his full being into it."
 
-    l "{i}Without me{/i}."
+    "Without me."
 
     jump lee
