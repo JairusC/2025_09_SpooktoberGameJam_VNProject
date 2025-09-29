@@ -49,6 +49,7 @@ label tommy:
     "It is a familiar feeling. The same warmth I felt when he would hold my hand."
     "..."
 
+    show bg couch warm with fade
     show lee normal with dissolve
     "I don't know how, but when I open my eyes again, we're no longer in our bedroom."
     "Instead, he is fast asleep on my lap, like he'd been there all along."
