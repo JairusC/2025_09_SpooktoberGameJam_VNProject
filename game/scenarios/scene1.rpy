@@ -5,7 +5,7 @@ label parterRouteScene1:
     """
     The room is unkempt, clothes all over the place. Lee sees her partner lying on his side, his face turned away. 
 
-    He is still wearing the same clothes from the funeral this morning, and seems to have left his shoes on when he fell asleep. 
+    He's still wearing the same clothes from the funeral this morning, and seems to have left his shoes on when he fell asleep. 
     
     It looks like he was halfway to tucking himself in, but clearly gave up and just threw the sheets aside.
 

@@ -2,7 +2,7 @@ label lee:
     $ set_focus("lee", "sad", "tommy", "normal")
     pause 2.0
     "..."
-    l "{i}Where does this leave me…?{/i}"
+    "Where does this leave me…?"
     "..."
 
     l "Tommy, what was the point of... me?"
@@ -22,7 +22,9 @@ label lee:
 
     "I'd wanted to comfort him, but now the weight of reality is settling in."
 
-    l "You're going to wake up tomorrow… and the day after that, and the day after that. You'll grow, and change, and… And you'll become someone different. What you do will still matter."
+    l "You're going to wake up tomorrow… and the day after that, and the day after that."
+
+    l "You'll grow, and change, and… And you'll become someone different. What you do will still matter."
 
     $ set_focus("lee", "sad", "tommy", "sad")
     "Tommy reaches out to me, his brow furrowed."
@@ -39,11 +41,17 @@ label lee:
 
     l "I can't help but think, maybe all I'm now is a mark in the sand."
 
-    l "I leave my head buried. I don't want to know what he is thinking right now. I'm scared to find out."
+    "I leave my head buried. I don't want to know what he's thinking right now. I'm scared to find out."
 
     l "I don't want to close my eyes, knowing that all I accomplished was putting some words on some pages in a book that never got a proper ending."
 
-    "Shame curls in my gut, hot and heavy. What kind of wife was I, leaving him behind after everything I'd put him through? Making him open up, only to wind up needing him again?"
+    stop music fadeout 1.0
+
+    "Shame curls in my gut, hot and heavy."
+    
+    "What kind of wife was I, leaving him behind after everything I'd put him through?"
+    
+    "Making him open up, only to wind up needing him again?"
 
     $ brighten("lee", "sad", "tommy", "normal")
 
@@ -52,7 +60,10 @@ label lee:
     "Then I hear a song playing. I raise my head and see Tommy, kneeling before me with his hand out."
 
     "He raises me up and leads me into a little dance. I know the steps well."
-    "We'd only ever learned one dance - the one for our wedding."
+
+    "We'd only ever learned one dance."
+    
+    "The one for our wedding."
 
     $ set_focus("tommy", "normal", "lee", "sad")
     t "Your story doesn't end here."
@@ -67,13 +78,13 @@ label lee:
 
     t "Our friends and family will always remember you, because you left an irreplaceable mark in our hearts."
 
-    t "I will visit all the places we said we would travel to."
+    t "I'll visit all the places we said we would travel to."
 
     $ set_focus("tommy", "smile", "lee", "sad")
     t "And… I'll even keep wearing that scarf you made for me."
 
     $ set_focus("lee", "normal", "tommy", "smile")
-    l "{i}Oh, but he hates that thing!{/i}"
+    "Oh, but he hates that thing!"
 
     $ set_focus("tommy", "smile", "lee", "normal")
     t "Even without trying, you'll be by my side."
@@ -95,18 +106,25 @@ label lee:
     $ set_focus("lee", "normal", "tommy", "smile")
     l "Please do..."
 
-    pause 2.0
 
-    l "{i}The song is about to end.{/i}"
+    pause 2.0
+    "The song is about to end."
 
     "..."
 
     $ set_focus("lee", "sad", "tommy", "smile")
 
     "I hold his face still, taking one last look. He looks back with those gentle eyes of his and a fragile smile." 
-    "An expression that shows silent resignation. We both know that we've done and said everything. There is so much love but it is time to let go."
 
-    l "{i}But if there's a part of me that will live on through him… Maybe that's good enough for me.{/i}"
+    "An expression that shows silent resignation."
+    
+    "We both know that we've done and said everything."
+    
+    "There is so much love but it is time to let go."
+
+    "But if there's a part of me that will live on through him…"
+    
+    "Maybe that's good enough for me."
 
     $ set_focus("tommy", "normal", "lee", "normal")
 
@@ -120,6 +138,8 @@ label lee:
 
     "We keep dancing regardless."
 
-    l "{i}For however much longer we have, down to the last second.{/i}"
+    "For however much longer we have..."
+    
+    "...down to the last second."
 
     return

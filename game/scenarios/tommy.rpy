@@ -3,22 +3,31 @@ label tommy:
     show bg bedroom at center, scale(0.4) with fade
 
     """
-    Our bedroom is a mess, clothes all over the place. Tommy is lying on his side, turned away from me. I can see a glass of water and some scattered pills on the dresser by him.
+    Our bedroom is a mess, clothes all over the place.
 
-    He is still wearing his day clothes. His favorite jacket that I got him years ago has been tossed to the floor.
+    Tommy is lying on his side, turned away from me.
 
-    I kept telling him to get it tailored. He'd always just laugh, saying that the bagginess suited him just fine. He wanted to keep it exactly the way I got it. I wish he'd liked that one scarf I knitted for him just as much as he did the jacket.
+    I can see a glass of water and some scattered pills on the dresser by him.
 
-   	He didn't even bother to kick his shoes off before jumping onto the bed. The sheets barely cover him, a half-hearted attempt to tuck himself in. My heart aches at the sight.
+    He's still wearing his day clothes. His favorite jacket that I got him years ago has been tossed to the floor.
+
+    I kept telling him to get it tailored. He'd always just laugh, saying that the bagginess suited him just fine.
+    
+    He wanted to keep it exactly the way I got it.
+    
+    I wish he'd liked that one scarf I knitted for him just as much as he did the jacket.
+
+   	He didn't even bother to kick his shoes off before jumping onto the bed. The sheets barely cover him, a half-hearted attempt to tuck himself in.
+
+    My heart aches at the sight.
 
     I tug at the sheets and unexpectedly manage to pull them over him.
     """
-
+    
     show lee normal with dissolve
-
-    l "Oh, so I can touch this? Then, maybe…"
-
     """
+    Oh, so I can touch this? Then, maybe…
+
     I push at the mattress and, emboldened by its familiar bounce, lie down next to him. 
     
     I still can't touch him, but I meekly trace the side of his face with my hand. The bends and curves have seen better days.
@@ -30,12 +39,12 @@ label tommy:
     He mutters in his sleep, seemingly stuck in a dream.
     """
 
-    l "{i}I just want to talk to him again...{/i}"
-
+    "I just want to talk to him again..."
+    
     show lee pray with dissolve
     "As if in an act of prayer, I close my eyes and fold my hands together."
-    l "{i}Tommy. My husband, and the one who shared with me ten years of highs, lows and the mundane valleys in between.{/i}"
-    l "{i}They were the best days of our lives.{/i}"
+    "Tommy. My husband, and the one who shared with me ten years of highs, lows and the mundane valleys in between."
+    "They were the best days of our lives."
     "I can feel a pull. The longer I spend thinking about him, the stronger it is. Not a single part of my being resists."
     "It is a familiar feeling. The same warmth I felt when he would hold my hand."
     "..."
@@ -43,6 +52,9 @@ label tommy:
     show lee normal with dissolve
     "I don't know how, but when I open my eyes again, we're no longer in our bedroom."
     "Instead, he is fast asleep on my lap, like he'd been there all along."
+
+    play music menu_music volume 1.0 loop
+
     "I can't resist playing with his hair a little before taking in our surroundings."
     "We are sitting on the couch in our first apartment."
     "The place that we scouted out just weeks after we finished our final exams. By then, we had been together for three years."
@@ -105,7 +117,7 @@ label tommy:
 
     $ darken("lee", "normal", "tommy", "normal")
     "I stay still and let the hug continue. I can feel the warmth radiating off him, and I can feel his breath on my skin."
-    l "{i}I've missed this, even if he's a slobbering mess.{/i}"
+    "I've missed this, even if he's a slobbering mess."
     "Now that I have my arms around him, he feels skinnier."
 
     $ set_focus("lee", "normal", "tommy", "normal")
@@ -173,24 +185,23 @@ label tommy:
     t "We had so many things we were going to do."
 
     $ set_focus("lee", "sad", "tommy", "sad")
-    l "{i}I know.{/i}"
-
+    "I know."
+    
     $ set_focus("tommy", "sad", "lee", "sad")
     t "We were going to visit your friends that year."
 
     $ set_focus("lee", "sad", "tommy", "sad")
-    l "{i}That would have been so fun.{/i}"
+    "That would have been so fun."
 
     $ set_focus("tommy", "sad", "lee", "sad")
     t "I was so close to getting us a dog."
 
     $ set_focus("lee", "sad", "tommy", "sad")
-    l "{i}We would have been the best dog parents.{/i}"
+    "We would have been the best dog parents."
 
     "He pauses for a moment, his eyes glued to mine and widened."
 
-    $ set_focus("tommy", "sad", "lee", "sad")
-    t "I'm… I think I'm missing a future we don't get to have."
+    t "I… I think I'm missing a future we don't get to have."
 
     "I put my arm around him and squeeze."
 
@@ -219,8 +230,8 @@ label tommy:
     t "Okay."
 
     $ set_focus("lee", "normal", "tommy", "normal")
-    l "{i}Knowing him, whatever he decides to do, he will put his full being into it.{/i}"
+    "Knowing him, whatever he decides to do, he will put his full being into it."
 
-    l "{i}Without me{/i}."
+    "Without me."
 
     jump lee
