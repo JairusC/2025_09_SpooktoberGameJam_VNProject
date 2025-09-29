@@ -158,6 +158,7 @@ style say_dialogue:
     xpos gui.dialogue_xpos
     xsize gui.dialogue_width
     ypos gui.dialogue_ypos
+    line_spacing 8
 
     adjust_spacing False
 
@@ -354,32 +355,82 @@ screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
     tag menu
+    # Play the menu music on loop
+    on "show" action Play("music", menu_music, loop=True)
 
-    add gui.main_menu_background
+    add "images/main_menu.jpg" zoom 0.5
 
-    ## This empty frame darkens the main menu.
     frame:
-        style "main_menu_frame"
+        style_group "mm"        
+        background Solid("#0000ff00")
 
-    ## The use statement includes another screen inside this one. The actual
-    ## contents of the main menu are in the navigation screen.
-    use navigation
+        align (0.5, 1.0)
+        xpadding 20
+        ypadding 30
 
-    if gui.show_name:
+        hbox:
+            spacing 50
 
-        vbox:
-            style "main_menu_vbox"
+            textbutton "Start" action Start():
+                background "#22222279"
+                hover_background "#4444447c"
+                align (.5, .5)
+                xminimum 200
+                yminimum 40
+                text_color 'FFF'
+                text_size 28
+                text_align 0.5
+            textbutton "Load" action ShowMenu("load"):
+                background "#22222279"
+                hover_background "#4444447c"
+                align (.5, .5)
+                xminimum 200
+                yminimum 40
+                text_color 'FFF'
+                text_size 28
+                text_align 0.5
+            textbutton "Preferences" action ShowMenu("preferences"):
+                background "#22222279"
+                hover_background "#4444447c"
+                align (.5, .5)
+                xminimum 200
+                yminimum 40
+                text_color 'FFF'
+                text_size 28
+                text_align 0.5
+            textbutton "Quit" action Quit():
+                background "#22222279"
+                hover_background "#4444447c"
+                align (.5, .5)
+                xminimum 200
+                yminimum 40
+                text_color 'FFF'
+                text_size 28
+                text_align 0.5
 
-            text "[config.name!t]":
-                style "main_menu_title"
+# # Disabling quick menu just to mainly show the "custom" buttons.
+# screen quick_menu():
 
-            text "[config.version]":
-                style "main_menu_version"
+#     pass
 
+#     ## The use statement includes another screen inside this one. The actual
+#     ## contents of the main menu are in the navigation screen.
+#     use navigation
+
+#     if gui.show_name:
+
+#         vbox:
+#             style "main_menu_vbox"
+
+#             text "[config.name!t]":
+#                 style "main_menu_title"
+
+#             text "[config.version]":
+#                 style "main_menu_version"
 
 style main_menu_frame is empty
 style main_menu_vbox is vbox
-style main_menu_text is gui_text
+# style main_menu_text is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
 
@@ -397,7 +448,7 @@ style main_menu_vbox:
     yoffset -20
 
 style main_menu_text:
-    properties gui.text_properties("main_menu", accent=True)
+    properties gui.text_properties("main_menu", accent=True) 
 
 style main_menu_title:
     properties gui.text_properties("title")
