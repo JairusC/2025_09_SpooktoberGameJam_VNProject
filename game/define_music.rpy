@@ -23,6 +23,7 @@ init python:
                             channel="music",
                             fadein=2.0,
                             loop=False,
+                            relative_volume=0.3,
                         )
                 else:
                     renpy.notify("Music error: no duration")

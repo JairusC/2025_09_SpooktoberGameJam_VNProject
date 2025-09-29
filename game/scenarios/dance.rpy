@@ -90,6 +90,6 @@ label dance:
 
     "For however much longer we have..."
     
-    "...down to the last second."
+    "...down to our last second."
 
-    return
+    call credits
