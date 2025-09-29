@@ -93,15 +93,17 @@ label tommy:
 
     # this might be too 'young' for the couple - we will need to review this
     $ set_focus("tommy", "normal", "lee", "smile")
-    t "Growing up, our families always had this playful banter going on. It was like a competition to see who could come up with the most ridiculous excuses for not doing chores."
+    t "Growing up, it's like our families had a competition to see who could come up with the most ridiculous excuse to not do chores."
     $ set_focus("lee", "normal", "tommy", "normal")
-    l "Right? Like when your mom would say she couldn't do the laundry because it was 'too heavy'?"
+    l "Right? Like when your mom would say she couldn't do the laundry because it was 'heavier than what she was used to'?"
     $ set_focus("tommy", "normal", "lee", "normal")
-    t "Or when my dad claimed he was 'too busy' to help with dinner because he was 'working on his novel.'"
+    t "Or when dad lied through his teeth about being 'too busy' to help with dinner because he was 'working on his novel.'"
     $ set_focus("lee", "normal", "tommy", "normal")
-    l "Which was really just him playing video games."
+    l "He was definitely not working on his novel."
     $ set_focus("tommy", "normal", "lee", "normal")
-    t "Exactly! And we thought we could outsmart them by using the same excuses."
+    t "Exactly! And we thought we would be better than them and never resort to the same lame excuses."
+
+    pause 2.0
 
     $ darken("lee", "normal", "tommy", "normal")
     "Those were good times."
@@ -131,7 +133,8 @@ label tommy:
     l "Oh…"
 
     $ set_focus("tommy", "normal", "lee", "normal")
-    t "It's nothing compared to what you went through."
+    t "..."
+    t "Nothing compared to what you went through."
 
     $ set_focus("lee", "normal", "tommy", "normal")
     l "No… I put you through so much, and for so long."
@@ -142,7 +145,7 @@ label tommy:
 
     $ set_focus("lee", "normal", "tommy", "normal")
     l "It was too much."
-    l "{i}Once upon a time, I would have relented. But… something tells me I won't have another chance to do this.{/i}"
+    "Once upon a time, I would have relented. But… something tells me I won't have another chance to do this."
     l "I know you don't want to talk about it, but I want to know… I need to know..."
 
     "I let go of him and try to elicit some reaction from him."
