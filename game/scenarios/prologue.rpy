@@ -16,7 +16,7 @@ label prologue:
 
     show expression "#1a1a2e" as bg_overlay   
     show bg apartment cold at center, scale(1.5) with fade
-    show lee normal at left, scale(0.2), Transform(ypos=400) with dissolve
+    show lee normal with dissolve
 
     "Tommy! He was right beside me..." 
     "Where is he..."
@@ -28,8 +28,11 @@ label prologue:
     "No. That's not possible… I didn't..."
     "Tommy couldn't even look at me anymore. It got so bad that they stopped updating me."
     "..."
+  
+    show lee sad with dissolve
     "Is this it then?"
     "At least it doesn't hurt anymore."
+    
     "I sit down on the floor against the wall. The ticks of the old clock we bought from the Sunday Market fill the room."
     "{i}Tick tock... tick tock..."
     "{i}..."
@@ -58,5 +61,7 @@ label prologue:
     "..."
     #I think this is a weird thing to think but maybe it's in character actually lol??
     #"I'll worry about it later..."
+
+    hide lee sad with dissolve
 
     jump tommy

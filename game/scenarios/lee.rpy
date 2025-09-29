@@ -1,4 +1,5 @@
 label lee:
+    $ set_focus("lee", "sad", "tommy", "normal")
     pause 2.0
     "..."
     "Where does this leave me…?"
@@ -9,8 +10,10 @@ label lee:
     "The question slips out. In the lows of my life, I counted on him to help me process."
     "It makes sense that even in my afterlife, my instinct tells me to rely on him."
 
+    $ set_focus("tommy", "normal", "lee", "sad")
     t "What?"
 
+    $ set_focus("lee", "sad", "tommy", "normal")
     l "I mean like..."
 
     l "Because I mean... I'm..."
@@ -23,12 +26,15 @@ label lee:
 
     l "You'll grow, and change, and… And you'll become someone different. What you do will still matter."
 
+    $ set_focus("lee", "sad", "tommy", "sad")
     "Tommy reaches out to me, his brow furrowed."
 
+    $ set_focus("tommy", "sad", "lee", "sad")
     t "Lee, what's wrong?"
 
-    l "..."
+    "..."
 
+    $ set_focus("lee", "sad", "tommy", "sad")
     l "I'm really scared."
 
     l "I'm sorry… I love you so much, but I… I..."
@@ -47,6 +53,8 @@ label lee:
     
     "Making him open up, only to wind up needing him again?"
 
+    $ brighten("lee", "sad", "tommy", "normal")
+
     play music wedding_song volume 0.3 fadein 1.0 loop
 
     "Then I hear a song playing. I raise my head and see Tommy, kneeling before me with his hand out."
@@ -57,6 +65,7 @@ label lee:
     
     "The one for our wedding."
 
+    $ set_focus("tommy", "normal", "lee", "sad")
     t "Your story doesn't end here."
 
     "We pace around the room a little. He brings me closer and whispers."
@@ -71,29 +80,39 @@ label lee:
 
     t "I'll visit all the places we said we would travel to."
 
+    $ set_focus("tommy", "smile", "lee", "sad")
     t "And… I'll even keep wearing that scarf you made for me."
 
+    $ set_focus("lee", "normal", "tommy", "smile")
     "Oh, but he hates that thing!"
 
+    $ set_focus("tommy", "smile", "lee", "normal")
     t "Even without trying, you'll be by my side."
-
     t "Every minute of you mattered."
 
     # <She embraces him. Her sobs from earlier have been replaced with light chuckles.>
 
     "..."
 
+    $ set_focus("lee", "normal", "tommy", "smile")
     l "You don't have to wear that stupid scarf."
 
+    $ set_focus("tommy", "smile", "lee", "normal")
     t "I will, and I am going to tell everyone that you made it."
 
+    $ set_focus("lee", "smile", "tommy", "smile")
     l "Ha!"
 
+    $ set_focus("lee", "normal", "tommy", "smile")
     l "Please do..."
 
+
+    pause 2.0
     "The song is about to end."
 
     "..."
+
+    $ set_focus("lee", "sad", "tommy", "smile")
 
     "I hold his face still, taking one last look. He looks back with those gentle eyes of his and a fragile smile." 
 
@@ -107,9 +126,15 @@ label lee:
     
     "Maybe that's good enough for me."
 
+    $ set_focus("tommy", "normal", "lee", "normal")
+
     t "If I put on another song, do we get to keep on dancing?"
 
+    $ set_focus("lee", "smile", "tommy", "normal")
+
     l "Ha! You're so greedy."
+
+    $ set_focus("lee", "normal", "tommy", "normal")
 
     "We keep dancing regardless."
 
