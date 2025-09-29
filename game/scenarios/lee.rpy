@@ -1,4 +1,5 @@
 label lee:
+    show bg couch cold with fade
     $ set_focus("lee", "sad", "tommy", "normal")
     pause 2.0
     "..."

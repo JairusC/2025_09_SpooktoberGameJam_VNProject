@@ -16,14 +16,15 @@ init python:
                 if duration is not None and pos is not None:
                     time_remaining = duration - pos
                     if time_remaining > 33.0:
+                        renpy.music.stop(channel="music", fadeout=2.0)
+                        renpy.say(None, "We dance quietly for a little longer.")
                         renpy.music.play(
                             "audio/music/WeddingSong End.mp3",
                             channel="music",
-                            fadein=2.0
+                            fadein=2.0,
+                            loop=False,
                         )
                 else:
-                    renpy.notify("Music error: " + str(e))
-            else:
-                renpy.notify("Music error: " + str(e))
-        except:
+                    renpy.notify("Music error: no duration")
+        except Exception as e:
             renpy.notify("Music error: " + str(e))

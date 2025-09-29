@@ -1,6 +1,14 @@
 # background
+transform couch:
+    center
+    scale(4.0)
+
 image bg apartment cold = "cold_apartment_bg.png"
 image bg bedroom = "bedroom.jpg"
+image bg couch warm:
+    At("couch_warm_bg.png", couch)
+image bg couch cold:
+    At("couch_bg.png", couch)
 
 # character
 init python:

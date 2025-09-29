@@ -1,6 +1,6 @@
 label dance:
     $ brighten("lee", "sad", "tommy", "normal")
-
+    show bg couch warm with fade
     play music wedding_song volume 0.3 fadein 1.0 fadeout 1.0
 
     pause 1.0
