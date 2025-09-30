@@ -1,6 +1,6 @@
 label tommy:
     show expression "#1a1a2e" as bg_overlay   
-    show bg bedroom at center, scale(0.4) with fade
+    show bg bedroom at center, with fade
 
     """
     Our bedroom is a mess, clothes all over the place.

@@ -15,7 +15,7 @@ label prologue:
     """
 
     show expression "#1a1a2e" as bg_overlay   
-    show bg apartment cold at center, scale(1.5) with fade
+    show bg apartment cold at center, with fade
     show lee normal with dissolve
 
     "Tommy! He was right beside me..." 

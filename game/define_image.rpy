@@ -1,7 +1,7 @@
 # background
 transform couch:
     center
-    scale(4.0)
+    scale(1.6)
 
 image bg apartment cold = "cold_apartment_bg.png"
 image bg bedroom = "bedroom.jpg"
